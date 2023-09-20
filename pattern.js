@@ -1,4 +1,4 @@
-<script>
+
     var colorPickerPat = new iro.ColorPicker(".ms-colorpicker-pat", {
         width: 180,
         color: "rgb(252, 252, 252)",
@@ -36,4 +36,3 @@
         colorPickerPat.color.hexString = this.value;
         swatchPat.style.backgroundColor = this.value;
     });
-</script>
